@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Github, Linkedin } from 'lucide-react';
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
+  
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : '';
   }, [menuOpen]);
