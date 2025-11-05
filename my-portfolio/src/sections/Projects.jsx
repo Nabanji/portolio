@@ -1,13 +1,13 @@
 export default function Projects() {
   const myProjects = [
-    {
-      title: "Rentora",
-      description: "A modern property rental platform that connects landlord with tenants and streamlines rent management",
-      link: "",
-      github: "https://github.com/Nabanji/Rentora",
-      image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
-      technologies: ["React", "Typescript", "TailwindCSS", "Supabase"]
-    },
+    // {
+    //   title: "Rentora",
+    //   description: "A modern property rental platform that connects landlord with tenants and streamlines rent management",
+    //   link: "",
+    //   github: "https://github.com/Nabanji/Rentora",
+    //   image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
+    //   technologies: ["React", "Typescript", "TailwindCSS", "Supabase"]
+    // },
     {
       title: "FarmIT",
       description:
