@@ -13,7 +13,7 @@ export default function Projects() {
       description:
         "A comprehensive farm management system for tracking crops, livestock, and farm activities.",
       link: "https://farmit.co.ke/",
-      github: "https://github.com/Nabanji/FarmIT",
+      // github: "https://github.com/Nabanji/FarmIT",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
       technologies: [
@@ -29,7 +29,8 @@ export default function Projects() {
     {
       title: "Kentan Safaris",
       description: "A travel agency website showcasing tours and services.",
-      link: "https://github.com/Nabanji/Kentan-Safaris",
+      // link: "https://github.com/Nabanji/Kentan-Safaris",
+      github: "https://github.com/Nabanji/Kentan-Safaris",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
       technologies: ["React", "Node.js", "Express", "MySQL", "ChartJS"],
@@ -37,7 +38,8 @@ export default function Projects() {
     {
       title: "Finora",
       description: "A financial management app for personal budgeting.",
-      link: "https://github.com/Nabanji/Finance-Tracker",
+      // link: "https://github.com/Nabanji/Finance-Tracker",
+      github: "https://github.com/Nabanji/Finance-Tracker",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
       technologies: [
@@ -52,7 +54,8 @@ export default function Projects() {
     {
       title: "EasyHire",
       description: "A job portal connecting employers and job seekers.",
-      link: "https://github.com/Nabanji/EasyHire",
+      // link: "https://github.com/Nabanji/EasyHire",
+      github: "https://github.com/Nabanji/EasyHire",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
       technologies: ["React", "Node.js", "Express", "MySQL", "Bootstrap"],
@@ -62,6 +65,7 @@ export default function Projects() {
       description:
         "The official website for Mayflower, showcasing their services and portfolio.",
       link: "https://mayflower-rose.vercel.app/",
+      github: "",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
       technologies: ["React", "Bootstrap", "HTML", "CSS", "JavaScript"],
@@ -116,13 +120,22 @@ export default function Projects() {
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <a
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      className="text-blue-400 text-sm hover:text-blue-300 transition-colors"
+                    >
+                      Live Demo →
+                    </a>
+                  )} 
+                  {/* <a
                     href={project.link}
                     target="_blank"
                     className="text-blue-400 text-sm hover:text-blue-300 transition-colors"
                   >
                     Live Demo →
-                  </a>
+                  </a> */}
                   {project.github && (
                     <a
                       href={project.github}
