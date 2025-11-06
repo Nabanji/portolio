@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title: "Rentora",
       description: "A modern property management platform that connects landlords and tenants through a sleek, data-driven dashboard. Enables rent tracking, tenant management, and automated payment reminders — built for efficiency and user experience.",
-      link: "https://rentora-hy3hsbh2s-prince-nabanjis-projects.vercel.app/",
+      link: "https://rentora-mauve.vercel.app/",
       github: "https://github.com/Nabanji/Rentora",
       image: Rentora,
       technologies: ["React", "Typescript", "TailwindCSS", "Supabase"]
