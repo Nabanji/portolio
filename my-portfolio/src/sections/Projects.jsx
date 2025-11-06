@@ -1,19 +1,23 @@
+import Rentora from '../assets/Rentora.png';
+import Kentan from "../assets/Kentan.png";
+import Mayflower from "../assets/Mayflower.png";
+import Finora from "../assets/Finora.png"
+
 export default function Projects() {
   const myProjects = [
-    // {
-    //   title: "Rentora",
-    //   description: "A modern property rental platform that connects landlord with tenants and streamlines rent management",
-    //   link: "",
-    //   github: "https://github.com/Nabanji/Rentora",
-    //   image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
-    //   technologies: ["React", "Typescript", "TailwindCSS", "Supabase"]
-    // },
+    {
+      title: "Rentora",
+      description: "A modern property management platform that connects landlords and tenants through a sleek, data-driven dashboard. Enables rent tracking, tenant management, and automated payment reminders — built for efficiency and user experience.",
+      link: "https://rentora-hy3hsbh2s-prince-nabanjis-projects.vercel.app/",
+      github: "https://github.com/Nabanji/Rentora",
+      image: Rentora,
+      technologies: ["React", "Typescript", "TailwindCSS", "Supabase"]
+    },
     {
       title: "FarmIT",
-      description:
-        "A comprehensive farm management system for tracking crops, livestock, and farm activities.",
+      description:        
+        "An intelligent farm management system that helps farmers monitor crops, livestock, and field activities. Integrates Google Earth Engine for geospatial insights and Firebase for real-time data tracking — empowering smarter, more sustainable farming.",
       link: "https://farmit.co.ke/",
-      // github: "https://github.com/Nabanji/FarmIT",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
       technologies: [
@@ -28,20 +32,16 @@ export default function Projects() {
     },
     {
       title: "Kentan Safaris",
-      description: "A travel agency website showcasing tours and services.",
-      // link: "https://github.com/Nabanji/Kentan-Safaris",
+      description: "A full-featured travel agency website designed to showcase tours, destinations, and services. Includes dynamic data visualization dashboards for tracking bookings and user engagement using ChartJS and a robust Node.js–MySQL backend.",
       github: "https://github.com/Nabanji/Kentan-Safaris",
-      image:
-        "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
+      image: Kentan,
       technologies: ["React", "Node.js", "Express", "MySQL", "ChartJS"],
     },
     {
       title: "Finora",
-      description: "A financial management app for personal budgeting.",
-      // link: "https://github.com/Nabanji/Finance-Tracker",
+      description: "A cross-platform financial management mobile app that helps users manage budgets, track expenses, and visualize spending habits. Built with React Native and PostgreSQL for scalability, and secured using Clerk authentication.",
       github: "https://github.com/Nabanji/Finance-Tracker",
-      image:
-        "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
+      image: Finora,
       technologies: [
         "React Native",
         "Node.js",
@@ -53,8 +53,7 @@ export default function Projects() {
     },
     {
       title: "EasyHire",
-      description: "A job portal connecting employers and job seekers.",
-      // link: "https://github.com/Nabanji/EasyHire",
+      description: "A responsive job portal connecting employers and job seekers through an intuitive interface. Features role-based authentication, job posting, and application management powered by a Node.js–Express backend and MySQL database.",
       github: "https://github.com/Nabanji/EasyHire",
       image:
         "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
@@ -63,11 +62,10 @@ export default function Projects() {
     {
       title: "Mayflower Official Website",
       description:
-        "The official website for Mayflower, showcasing their services and portfolio.",
+        "A polished corporate website for Mayflower, highlighting their brand, services, and portfolio. Focused on performance, responsive design, and an elegant user experience built with React and Bootstrap.",
       link: "https://mayflower-rose.vercel.app/",
       github: "",
-      image:
-        "https://images.unsplash.com/photo-1607706189992-eae578626c86?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=600",
+      image: Mayflower,
       technologies: ["React", "Bootstrap", "HTML", "CSS", "JavaScript"],
     },
   ];
